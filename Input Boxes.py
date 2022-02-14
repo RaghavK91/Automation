@@ -22,7 +22,7 @@ drp.select_by_visible_text('What was the name of your first school')
 
 #Working with the radio buttons
 status = driver.find_element_by_id("M").click()
-status = driver.find_element_by_id("M").is_selected()   #gives True or False
+status = driver.find_element_by_id("M").is_selected()   #gives True or Flse
 print(status)
 driver.find_element_by_xpath("//*[@id='divMain']/div/app-user-registration/div[2]/div/div[2]/div[5]/form/div[10]/div[2]/label[2]/input").click()
 
